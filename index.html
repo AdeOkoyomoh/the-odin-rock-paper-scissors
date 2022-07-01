@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Odin Project | Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f7c447ebe.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </head>
 <body>
@@ -17,19 +22,22 @@
         <div class="container">
             <div class="scoreboard">
                 <div class="score player-score">
-                    <p></p>
+                    <p>0</p>
+                </div>
+                <div class="divider">
+                    :
                 </div>
                 <div class="score computer-score">
-                    <p></p>
+                    <p>0</p>
                 </div>
             </div>
             <div class="announcer">
-                <p></p>
+                <p>Click a button to start playing!</p>
             </div>
             <div class="inputs">
-                <button class="input" type="button">ROCK</buttons>
-                <button class="input" type="button">PAPER</buttons>
-                <button class="input" type="button">SCISSORS</buttons>
+                <button class="input rock" type="button"><i class="fa-solid fa-hand-back-fist"></i> ROCK</button>
+                <button class="input paper" type="button"><i class="fa-solid fa-hand-scissors"></i> PAPER</button>
+                <button class="input scissors" type="button"><i class="fa-solid fa-hand"></i> SCISSORS</button>
             </div>
         </div>
     </main>
