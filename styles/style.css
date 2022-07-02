@@ -5,7 +5,7 @@
 }
 
 :root {
-    --main-color: rgb(163, 255, 188);
+    --main-color: rgb(247, 169, 169);
     --main-font-family: 'Lato', sans-serif;
 }
 
@@ -28,6 +28,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .scoreboard {
@@ -36,10 +37,11 @@ nav {
     align-items: center;
     padding: 5rem;
     font-size: 6rem;
-    margin: 2rem auto;
+    margin: 2rem;
     background-color: var(--main-color);
     color: white;
     border-radius: 1.5rem;
+    flex: 1;
 }
 
 .score {
@@ -73,4 +75,8 @@ nav {
 
 .input:active {
     transform: scale(1);
+}
+
+.button-loss {
+    border-color: rgb(190, 4, 4);
 }
